@@ -15,6 +15,7 @@ for root, directory, files in os.walk(r'C:\Users\Savannah\Google Drive\Savannah\
         #xls = pd.ExcelFile(filename)
         df_lancamentos = pd.read_excel(filename, sheetname = 0, skiprows= 3)
         print(df_lancamentos)
+        #what up hoe
         
 
     
